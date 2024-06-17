@@ -1,0 +1,39 @@
+#Home{
+    background-image: url("../images/p00-1_工作區域\ 1.jpg");
+}
+#About{
+    background-image: url("../images/p1.jpg");
+}
+#Portfolio{
+    background-image: url("../images/p2.jpg");
+}
+
+#More{
+    background-image: url("../images/p4.jpg");
+}
+html,
+body{width: 100%;
+height: 100%;
+}
+section{
+    height: 100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+}
+.txt-bg{
+    background-color:rgb(255, 255, 255,.6);
+    border-radius: 50px;
+    text-align: justify;
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+    
+}
+.txt-bg h2{
+    text-align: center;
+}
+.txt-bg .home-icon{
+    color: blue;
+}
