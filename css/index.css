@@ -1,39 +1,64 @@
-#Home{
-    background-image: url("../images/p00-1_工作區域\ 1.jpg");
-}
-#About{
-    background-image: url("../images/p1.jpg");
-}
-#Portfolio{
-    background-image: url("../images/p2.jpg");
+#Home {
+    background-image: url("../images/p00-1_工作區域\ 1_工作區域\ 1.jpg");
 }
 
-#More{
-    background-image: url("../images/p4.jpg");
+#About {
+    background-image: url("../images/履歷.jpg");
 }
+
+#Portfolio {
+    background-image: url("../images/中板_工作區域\ 1\ 複本.jpg");
+}
+
+#Demo {
+    background-image: url("../images/中板_工作區域\ 1\ 複本.jpg");
+}
+
 html,
-body{width: 100%;
-height: 100%;
+body {
+    width: 100%;
+    height: 100%;
 }
-section{
-    height: 100;
+
+section {
+    height: 1080px;
+    width: 1920px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     padding-top: 150px;
 }
-.txt-bg{
-    background-color:rgb(255, 255, 255,.6);
+
+.txt-bg {
+    background-color: rgb(255, 255, 255, .6);
     border-radius: 50px;
     text-align: justify;
     padding: 50px;
     width: 800px;
     margin: auto;
-    
+
 }
-.txt-bg h2{
+
+.txt-bg h2 {
     text-align: center;
 }
-.txt-bg .home-icon{
+
+.txt-bg .home-icon {
     color: blue;
+}
+
+.info .box img {
+    display: inline-block;
+}
+
+.avatar-frame {
+    width: 1920px;
+    height: 750px;
+    border-radius: 50px;
+    /* aspect-ratio: 1 / 1; */
+    background-color: #ffffffb5;
+    /* 可以做為預設的顏色 */
+    background-image: url("images/avatar.jpg");
+    background-size: contain;
+    background-position: top;
 }
