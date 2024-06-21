@@ -7,8 +7,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap-4.0.0.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <!-- bs icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="./fontawesome-free-5.7.2-web/css/all.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 引入 Lightbox2 的 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <!-- 引入 jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 引入 Lightbox2 的 JS 文件 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- 測試 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.net/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .info .box {
+            display: inline-block;
+        }
+
+        .info .box img {
+            width: 350px;
+            margin: 12px;
+            float: center;
+            position: center;
+            /* margin-top: 100px;
+            margin-left: 20px; */
+        }
+    </style>
+
 </head>
 
 <body>
@@ -16,8 +51,8 @@
         <a class="navbar-brand js-scroll-trigger" href="#Home">
             <img src="./images/logo.png" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -36,7 +71,7 @@
                     <a class="nav-link js-scroll-trigger" href="#Service">Service</a> -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#More">More</a>
+                    <a class="nav-link js-scroll-trigger" href="#Demo">Demo</a>
                 </li>
 
             </ul>
@@ -46,46 +81,83 @@
     <section id="Home">
         <div class="container">
             <div class="row">
-                <div class="txt-bg">
+                <!-- 框框 -->
+                <!-- <div class="txt-bg">
                     <H2><i class="bi bi-stars"></i>Home</H2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat, iure rerum vitae eaque architecto
-                        facilis inventore aspernatur quam deserunt mollitia quis nostrum? Itaque nihil illo alias eos dolore
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat, iure rerum vitae eaque
+                        architecto
+                        facilis inventore aspernatur quam deserunt mollitia quis nostrum? Itaque nihil illo alias eos
+                        dolore
                         mollitia.
                     </p>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <section id="About">
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="txt-bg">
                     <H2>About</H2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat, iure rerum vitae eaque architecto
-                        facilis inventore aspernatur quam deserunt mollitia quis nostrum? Itaque nihil illo alias eos dolore
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat, iure rerum vitae eaque
+                        architecto
+                        facilis inventore aspernatur quam deserunt mollitia quis nostrum? Itaque nihil illo alias eos
+                        dolore
                         mollitia.
                     </p>
 
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section id="Portfolio">
+
         <div class="container">
             <div class="row">
+                <div class="avatar-frame">
+                    <div class="info">
+                        <div class="box">
+                            <a href="./images/14邱筱媛-茶樓banner設計 拷貝.jpg" data-lightbox="griphic design"
+                                data-title="茶樓banner設計"><img src="./images/作品及按鈕.png" alt=""></a>
+                            <a href="./images/動物海報01.jpg" data-lightbox="griphic design" data-title="Polygon插畫風格"></a>
+                            <a href="./images/狐狸.jpg" data-lightbox="griphic design" data-title="Polygon插畫風格"></a>
+
+                        </div>
+                        <!-- banner尺寸太小 -->
+                        <div class="box">
+                            <a href="./images/Banner(動畫).gif" data-lightbox="commercial design" data-title="商業設計"><img
+                                    src="./images/作品及按鈕02_工作區域 1.png" alt=""></a>
+                            <a href="./images/母親節Banner 拷貝.jpg" data-lightbox="commercial design" data-title="商業設計"></a>
+                            <a href="./images/母親節Banner02 拷貝.jpg" data-lightbox="commercial design"
+                                data-title="商業設計"></a>
+                        </div>
+                        <div class="box">
+                            <a href="./images/20240606_101536.jpg" data-lightbox="photography" data-title="攝影"><img
+                                    src="./images/照片按鈕.png" alt=""></a>
+                            <a href="./images/20240606_104534.jpg" data-lightbox="photography" data-title="攝影">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- <div class="row">
                 <div class="txt-bg">
                     <H2>Portfolio</H2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat, iure rerum vitae eaque architecto
-                        facilis inventore aspernatur quam deserunt mollitia quis nostrum? Itaque nihil illo alias eos dolore
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat, iure rerum vitae eaque
+                        architecto
+                        facilis inventore aspernatur quam deserunt mollitia quis nostrum? Itaque nihil illo alias eos
+                        dolore
                         mollitia.
                     </p>
 
                 </div>
-            </div>
+            </div> -->
         </div>
-    <!-- </section> -->
-    <!-- <section id="Service">
+        <!-- </section> -->
+        <!-- <section id="Service">
         <div class="container">
             <div class="row">
                 <div class="txt-bg">
@@ -99,25 +171,71 @@
             </div>
         </div> -->
     </section>
-    <section id="More">
+    <!-- <section id="Other">
         <div class="container">
             <div class="row">
-                <div class="txt-bg">
+                <!-- <div class="txt-bg">
                     <H2>More</H2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat, iure rerum vitae eaque architecto
                         facilis inventore aspernatur quam deserunt mollitia quis nostrum? Itaque nihil illo alias eos dolore
                         mollitia.
                     </p>
 
-                </div>
+                </div> -->
+
+
             </div>
         </div>
-    </section>
+    </section> -->
+    <!-- 測試輪播 -->
+    <div id="Demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 輪播圖片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/14邱筱媛-茶樓banner設計 拷貝.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/Banner(動畫).gif">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/動物海報01.jpg">
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- jQuery 主程式 -->
     <script src="./js/jquery-3.2.1.min.js"></script>
+    <!-- jQUERY主程式 -->
+    <script src="./dist/js/lightbox-plus-jquery.js"></script>
+    <!--燈箱效果主程式  -->
+    <script src="./dist/js/lightbox.js"></script>
+    <script src="js/lightbox.min.js"></script>
+
+    <!-- 捲動主程式 -->
     <script src="./js/freelancer.min.js"></script>
+    <!-- 轉場主程式 -->
     <script src="./js/jquery.easing.min.js"></script>
+
+    <!-- bs主程式 -->
     <script src="./js/bootstrap-4.0.0.js"></script>
     <script src="./js/popper.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
